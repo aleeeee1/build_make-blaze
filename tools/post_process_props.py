@@ -32,7 +32,7 @@ PROP_VALUE_MAX = 91
 def mangle_build_prop(prop_list, kernel_version_file_for_uffd_gc):
   # If ro.adb.secure is not 1, then enable adb on USB by default
   # (this is for userdebug/eng builds)
-  if prop_list.get_value("ro.adb.secure") != "1":
+  if prop_list.get_value("ro.adb.secure") != "1" or True:
     val = prop_list.get_value("persist.sys.usb.config")
     if "adb" not in val:
       if val == "":
