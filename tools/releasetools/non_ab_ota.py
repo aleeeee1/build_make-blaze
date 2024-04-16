@@ -222,7 +222,7 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
     model = target_info.GetBuildProp("ro.product.model")
     script.Print("***********************************************");
     script.Print("           Project Blaze for %s"%(model));
-    script.Print("               BY: ＡＤＩＴＹＡ                ");
+    script.Print("               BY: Aditya Singh                ");
     script.Print("   VERSION: %s"%(version));
     script.Print("   MAINTAINED BY: %s"%(maintainer));
     script.Print("   COMPILED ON: %s"%(date));
@@ -231,7 +231,7 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
     name = target_info.GetBuildProp("ro.product.name")
     script.Print("***********************************************");
     script.Print("           Project Blaze for %s"%(name));
-    script.Print("               BY: ＡＤＩＴＹＡ                ");
+    script.Print("               BY: Aditya Singh                ");
     script.Print("   VERSION: %s"%(version));
     script.Print("   MAINTAINED BY: %s"%(maintainer));
     script.Print("   COMPILED ON: %s"%(date));
